@@ -4,9 +4,14 @@ import App from './App.tsx';
 import './index.css';
 import { isEnvBrowser } from './utils/misc.ts';
 
+import { MantineProvider } from '@mantine/core';
+import '@mantine/core/styles.css';
+
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
-    <App />
+    <MantineProvider defaultColorScheme='dark'>
+      <App />
+    </MantineProvider>
   </React.StrictMode>
 );
 
