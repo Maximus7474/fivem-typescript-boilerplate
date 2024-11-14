@@ -43,6 +43,8 @@
   },
   "dependencies": {
     "@jgoz/esbuild-plugin-typecheck": "^4.0.1",
+    "@mantine/core": "^7.14.0",
+    "@mantine/hooks": "^7.14.0",
     "@nativewrappers/fivem": "latest",
     "@overextended/ox_lib": "latest",
     "react": "^18.3.1",
