@@ -1,4 +1,6 @@
 body {
+  background: none !important;
+  background-color: non !important;
   height: 100vh;
   user-select: none;
   margin: 0;
